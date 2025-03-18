@@ -1,10 +1,3 @@
-/*******************************
-[rewrite_local]
-^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/.+$) url script-request-header https://raw.githubusercontent.com/bpxtc/must/refs/heads/main/Scripts/LimiCam.js
-^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/.+$) url script-request-body https://raw.githubusercontent.com/bpxtc/must/refs/heads/main/Scripts/LimiCam.js
-[mitm] 
-hostname = api.revenuecat.com,api.rc-backup.com
-*******************************/
 let obj = {};
 
 let creakinfo = {"appId":"com.uzero.cn.FoJiCam","productId":"com.uzero.cn.fojicam.month1","entitlements":["Pro"]}
